@@ -5,11 +5,14 @@
   
   [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/firdausmntp/opensinta)
   [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+  [![Educational](https://img.shields.io/badge/purpose-educational-orange.svg)](README.md#about-repository)
   [![React](https://img.shields.io/badge/React-18.2.0-61DAFB.svg)](https://reactjs.org/)
   [![Vite](https://img.shields.io/badge/Vite-5.2.10-646CFF.svg)](https://vitejs.dev/)
   [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.4.3-38B2AC.svg)](https://tailwindcss.com/)
 
 **Platform visualisasi terbuka untuk data publikasi SINTA (Science and Technology Index) Indonesia**
+
+> 🎓 **EDUCATIONAL PURPOSE ONLY** - Repository ini dibuat khusus untuk tujuan pembelajaran dan edukasi dalam bidang web development, data visualization, dan ethical web scraping.
 
 [🌐 Live Demo](https://firdausmntp.github.io/opensinta/) | [📖 Documentation](#dokumentasi) | [🐛 Report Bug](https://github.com/firdausmntp/opensinta/issues)
 
@@ -20,6 +23,7 @@
 ## 📋 Daftar Isi
 
 - [Tentang OpenSINTA](#tentang-opensinta)
+- [About Repository](#about-repository)
 - [Fitur Utama](#fitur-utama)
 - [Teknologi](#teknologi)
 - [Instalasi](#instalasi)
@@ -42,6 +46,50 @@ OpenSINTA adalah platform visualisasi data terbuka yang menyediakan analisis men
 | Home Page                             | Visualisasi                                   | Tutorial                                      |
 | ------------------------------------- | --------------------------------------------- | --------------------------------------------- |
 | ![Home](docs/images/home-preview.png) | ![Visualization](docs/images/viz-preview.png) | ![Tutorial](docs/images/tutorial-preview.png) |
+
+---
+
+## 📚 About Repository
+
+**⚠️ DISCLAIMER: TUJUAN EDUKASI DAN PEMBELAJARAN**
+
+Repository ini dibuat khusus untuk **tujuan edukasi dan pembelajaran** dalam bidang:
+
+- **Web Development** dengan React.js dan Vite
+- **Data Visualization** menggunakan Recharts
+- **Web Scraping Ethics** dan best practices
+- **Open Source Development** workflow
+
+### 🎯 **Tujuan Pembelajaran**
+
+- **Frontend Development**: Memahami React hooks, routing, dan state management
+- **Data Processing**: Belajar manipulasi JSON, filtering, dan analitik
+- **UI/UX Design**: Implementasi Tailwind CSS dan responsive design
+- **Ethical Scraping**: Panduan scraping yang bertanggung jawab
+- **Open Data**: Praktik penggunaan data publik secara etis
+
+### 📖 **Untuk Pelajar & Educator**
+
+- **Students**: Gunakan sebagai referensi project React
+- **Educators**: Template untuk mengajar web development
+- **Researchers**: Contoh visualisasi data akademik
+- **Developers**: Best practices untuk data visualization
+
+### ⚖️ **Ethical Guidelines**
+
+1. **Data Usage**: Semua data bersumber dari informasi publik SINTA
+2. **Educational Purpose**: Tidak untuk komersial atau profit
+3. **Respect Robots.txt**: Ikuti panduan scraping yang bertanggung jawab
+4. **Attribution**: Berikan credit kepada sumber data
+5. **Rate Limiting**: Gunakan delay dan tidak overload server
+
+### 🚫 **Pembatasan Penggunaan**
+
+- ❌ **Tidak untuk tujuan komersial**
+- ❌ **Tidak untuk scraping massal tanpa izin**
+- ❌ **Tidak untuk menyalahgunakan data institusi**
+- ✅ **Boleh untuk pembelajaran dan riset akademik**
+- ✅ **Boleh untuk portfolio dan demo**
 
 ---
 
