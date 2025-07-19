@@ -394,26 +394,12 @@ git push origin feature/amazing-feature
 - [x] Responsive design
 - [x] Tutorial section
 
-### **Phase 2: Enhanced Features** 🚧
-
-- [ ] Advanced search dengan AI/ML
-- [ ] Real-time data updates
-- [ ] User authentication
-- [ ] Bookmark/favorites system
-
-### **Phase 3: Calculator Tools** 📋
+### **Phase 2: Calculator Tools** 📋
 
 - [ ] Impact Factor Predictor
 - [ ] Citation Calculator
 - [ ] Journal Ranking Tool
 - [ ] Research Performance Analyzer
-
-### **Phase 4: Community** 🌟
-
-- [ ] User-generated content
-- [ ] Review system
-- [ ] API untuk developers
-- [ ] Mobile application
 
 ---
 
@@ -438,7 +424,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 - Website: [firdausmntp.github.io](https://firdausmntp.github.io)
 - GitHub: [@firdausmntp](https://github.com/firdausmntp)
-- Email: firdausmntp@example.com
 
 **Project Link**: [https://github.com/firdausmntp/opensinta](https://github.com/firdausmntp/opensinta)
 
