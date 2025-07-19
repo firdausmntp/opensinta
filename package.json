@@ -1,0 +1,93 @@
+{
+  "name": "opensinta",
+  "private": false,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "OpenSINTA - Open visualization platform for SINTA (Science and Technology Index) publication data with insights on journals, and cost estimations (soon)",
+  "homepage": "https://firdausmntp.github.io/opensinta/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firdausmntp/opensinta.git"
+  },
+  "bugs": {
+    "url": "https://github.com/firdausmntp/opensinta/issues"
+  },
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "lint:fix": "eslint . --ext js,jsx --fix",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "analyze": "npm run build && npx vite-bundle-analyzer"
+  },
+  "dependencies": {
+    "framer-motion": "^11.0.24",
+    "lucide-react": "^0.379.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3",
+    "recharts": "^2.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.79",
+    "@types/react-dom": "^18.2.25",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "gh-pages": "^6.1.1",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "vite": "^5.2.10"
+  },
+  "keywords": [
+    "opensinta",
+    "sinta",
+    "publication",
+    "research",
+    "academic",
+    "indonesia",
+    "journal",
+    "citation",
+    "visualization",
+    "dashboard",
+    "analytics",
+    "science",
+    "technology",
+    "index",
+    "open-data",
+    "research-metrics",
+    "academic-publishing",
+    "publication-trends",
+    "cost-estimation",
+    "data-visualization"
+  ],
+  "author": {
+    "name": "Firdausmntp",
+    "email": "firdausmntp@example.com",
+    "url": "https://github.com/firdausmntp"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
