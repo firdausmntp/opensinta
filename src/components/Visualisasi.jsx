@@ -54,7 +54,9 @@ const Visualisasi = () => {
     setLoadError(null);
 
     try {
-      const response = await fetch("/sinta_journals.json");
+      const response = await fetch(
+        `${import.meta.env.BASE_URL}/sinta_journals.json`
+      );
 
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);

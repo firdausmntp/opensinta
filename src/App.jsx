@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Visualisasi from "./components/Visualisasi";
@@ -9,7 +9,7 @@ import Kalkulasi from "./components/Kalkulasi";
 
 function App() {
   return (
-    <Router basename={import.meta.env.PROD ? "/opensinta" : ""}>
+    <>
       <div className="min-h-screen bg-gray-100">
         <Navbar />
         <Routes>
@@ -20,7 +20,7 @@ function App() {
         </Routes>
       </div>
       <Footer />
-    </Router>
+    </>
   );
 }
 
